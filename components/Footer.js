@@ -11,7 +11,6 @@ import {
 const Footer = () => {
   return (
     <>
-      {/* This example requires Tailwind CSS v2.0+ */}
       <footer className='bg-white'>
         <div className='max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8'>
           <nav
@@ -53,13 +52,13 @@ const Footer = () => {
                 </a>
               </Link>
             </div>
-            {/* <div className='px-5 py-2'>
+            <div className='px-5 py-2'>
               <Link href='/blog'>
                 <a className='text-base text-gray-500 hover:text-gray-900'>
                   Blog
                 </a>
               </Link>
-            </div> */}
+            </div>
           </nav>
           <div className='mt-8 flex justify-center space-x-6'>
             <a
